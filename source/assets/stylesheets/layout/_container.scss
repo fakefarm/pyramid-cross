@@ -1,0 +1,8 @@
+.l-container, .l-hero {
+  @include outer-container;
+  max-width: 50em;
+}
+
+.l-hero {
+  text-align: center;
+}

@@ -9,6 +9,12 @@ html.no-js lang="en"
     meta content="Codrops" name="author"
     = stylesheet_link_tag "application"
     = javascript_include_tag "modernizr.js"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   body
-    = yield
+    .l-hero
+      h1 The pyramid vs the cross
+      h2 Dave Woodall
+      span#tags
+    .l-container
+      = yield
     = javascript_include_tag "application"
