@@ -6,3 +6,7 @@
 .l-hero {
   text-align: center;
 }
+
+.l-toc {
+  @include shift(3);
+}
