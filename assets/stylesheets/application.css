@@ -1,1067 +1,4 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-/* line 10, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
-/**
- * Remove default margin.
- */
-/* line 20, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-body {
-  margin: 0; }
-
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
-/* line 34, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block; }
-
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-/* line 55, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-/* line 68, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
- */
-/* line 78, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-[hidden],
-template {
-  display: none; }
-
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
-/* line 90, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-a {
-  background-color: transparent; }
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-/* line 98, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-a:active,
-a:hover {
-  outline: 0; }
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
-/* line 110, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
-/* line 118, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-b,
-strong {
-  font-weight: bold; }
-
-/**
- * Address styling not present in Safari and Chrome.
- */
-/* line 127, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-dfn {
-  font-style: italic; }
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-/* line 136, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-/**
- * Address styling not present in IE 8/9.
- */
-/* line 145, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-mark {
-  background: #ff0;
-  color: #000; }
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-/* line 154, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-small {
-  font-size: 80%; }
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-/* line 162, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-/* line 170, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-sup {
-  top: -0.5em; }
-
-/* line 174, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-sub {
-  bottom: -0.25em; }
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
-/* line 185, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-img {
-  border: 0; }
-
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
-/* line 193, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-svg:not(:root) {
-  overflow: hidden; }
-
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
-/* line 204, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-figure {
-  margin: 1em 40px; }
-
-/**
- * Address differences between Firefox and other browsers.
- */
-/* line 212, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0; }
-
-/**
- * Contain overflow in all browsers.
- */
-/* line 222, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-pre {
-  overflow: auto; }
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-/* line 230, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em; }
-
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-/* line 253, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
-/* line 267, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-button {
-  overflow: visible; }
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-/* line 278, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-button,
-select {
-  text-transform: none; }
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-/* line 291, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
-
-/**
- * Re-set default cursor for disabled elements.
- */
-/* line 303, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-button[disabled],
-html input[disabled] {
-  cursor: default; }
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-/* line 312, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-/* line 323, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-input {
-  line-height: normal; }
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-/* line 335, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-/* line 347, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
- */
-/* line 358, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-/* line 371, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-/**
- * Define consistent border, margin, and padding.
- */
-/* line 380, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-/* line 391, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
-/* line 400, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-textarea {
-  overflow: auto; }
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-/* line 409, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-optgroup {
-  font-weight: bold; }
-
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
-/* line 420, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* line 425, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/normalize.css */
-td,
-th {
-  padding: 0; }
-
-/* line 1, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-html, body,
-.container {
-  position: relative;
-  width: 100%;
-  height: 100%; }
-
-/* line 8, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-body {
-  overflow-y: scroll;
-  background: #333; }
-
-/* line 13, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.splitlayout {
-  position: relative;
-  overflow-x: hidden;
-  min-height: 100%;
-  width: 100%; }
-
-/* Intro sides */
-/* line 21, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  -webkit-backface-visibility: hidden; }
-
-/* line 31, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-left .side,
-.open-right .side {
-  cursor: default; }
-
-/* line 36, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 499;
-  visibility: hidden;
-  width: 100%;
-  height: 100%;
-  opacity: 0; }
-
-/* line 47, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side-left .overlay {
-  background: rgba(0, 0, 0, 0.7); }
-
-/* line 51, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side-right .overlay {
-  background: rgba(0, 0, 0, 0.3); }
-
-/* line 55, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side-left {
-  left: 0;
-  background: #333333;
-  color: #fff;
-  outline: 1px solid #333333;
-  /* avoid gap */ }
-
-/* line 62, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side-right {
-  right: 0;
-  background: #dcdd57;
-  color: #47a3da;
-  outline: 1px solid #dcdd57;
-  /* avoid gap */ }
-
-/* Intro content, profile image and name, back button */
-/* line 70, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 0 1em;
-  width: 50%;
-  cursor: pointer;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%); }
-
-/* line 81, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.profile {
-  margin: 0 auto;
-  width: 140px;
-  height: 140px; }
-
-/* line 87, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.profile img {
-  max-width: 100%;
-  opacity: 0.8; }
-
-/* line 92, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content h1 > span {
-  display: block;
-  white-space: nowrap; }
-
-/* line 97, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content h1 > span:first-child {
-  font-weight: 300;
-  font-size: 2em; }
-
-/* line 102, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content h1 > span:nth-child(2) {
-  position: relative;
-  margin-top: 0.5em;
-  padding: 0.8em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.8em; }
-
-/* line 111, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content h1 > span:nth-child(2):before {
-  position: absolute;
-  top: 0;
-  left: 25%;
-  width: 50%;
-  height: 2px;
-  background: #fff;
-  content: ''; }
-
-/* line 121, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side-right .intro-content h1 > span:nth-child(2):before {
-  background: #47a3da; }
-
-/* line 125, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.back {
-  position: fixed;
-  top: 2.6em;
-  z-index: 500;
-  display: block;
-  visibility: hidden;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: #47a3da;
-  text-align: center;
-  font-size: 22px;
-  line-height: 44px;
-  opacity: 0;
-  pointer-events: none; }
-
-/* line 142, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.mobile-layout .back {
-  /* fixed positioning will make this not clickable after scrolling on some mobile devices */
-  position: absolute; }
-
-/* line 146, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.back-left {
-  left: 12.5%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%); }
-
-/* line 152, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.back-right {
-  right: 12.5%;
-  -webkit-transform: translateX(50%);
-  transform: translateX(50%);
-  color: #fff; }
-
-/* line 159, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-right .back-left,
-.open-left .back-right {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-  pointer-events: auto; }
-
-/* line 168, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.back:hover {
-  color: #ddd; }
-
-/* Pages */
-/* line 173, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page {
-  position: relative;
-  top: 0;
-  overflow: auto;
-  min-height: 100%;
-  width: 75%;
-  height: auto;
-  font-size: 1.4em;
-  -webkit-backface-visibility: hidden; }
-
-/* line 184, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page-right {
-  left: 25%;
-  outline: 5px solid #ecf0f1;
-  /* avoid rounding gaps */
-  background: #ecf0f1;
-  color: #97a8b2;
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%); }
-
-/* line 193, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.splitlayout.open-right {
-  background: #ecf0f1; }
-
-/* line 197, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page-left {
-  left: 0;
-  outline: 5px solid #34495e;
-  /* avoid rounding gaps */
-  background: #34495e;
-  color: #fff;
-  text-align: right;
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%); }
-
-/* line 207, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.splitlayout.open-left {
-  background: #34495e; }
-
-/* Inner page content */
-/* line 212, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page-inner {
-  padding: 2em; }
-
-/* line 216, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page-inner section {
-  padding-bottom: 1em; }
-
-/* line 220, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page-inner h2 {
-  margin: 0 0 1em 0;
-  font-weight: 300;
-  font-size: 2.4em; }
-
-/* line 226, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.page-inner p {
-  font-weight: 300;
-  font-size: 1.2em; }
-
-/* All transitions */
-/* line 232, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.side,
-.page {
-  -webkit-transition: -webkit-transform 0.6s;
-  transition: transform 0.6s; }
-
-/* line 238, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.overlay {
-  -webkit-transition: opacity 0.6s, visibility 0.1s 0.6s;
-  transition: opacity 0.6s, visibility 0.1s 0.6s; }
-
-/* line 243, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content {
-  -webkit-transition: -webkit-transform 0.6s, top 0.6s;
-  transition: transform 0.6s, top 0.6s; }
-
-/* line 248, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.intro-content h1,
-.back {
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s; }
-
-/* Open and close */
-/* We need to set the position and overflow for the respective page scroll */
-/* line 257, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.reset-layout .page,
-.splitlayout.open-right .page-left,
-.splitlayout.open-left .page-right,
-.splitlayout.close-right .page-left,
-.splitlayout.close-left .page-right {
-  position: absolute;
-  overflow: hidden;
-  height: 100%; }
-
-/* line 267, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.splitlayout.open-right .page-right,
-.splitlayout.open-left .page-left {
-  position: relative;
-  overflow: auto;
-  height: auto; }
-
-/* line 274, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-right .side-left .overlay,
-.open-left .side-right .overlay {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transition: opacity 0.6s;
-  transition: opacity 0.6s; }
-
-/* Right side open */
-/* line 283, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-right .side-left {
-  -webkit-transform: translateX(-60%);
-  transform: translateX(-60%); }
-
-/* line 288, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-right .side-right {
-  z-index: 200;
-  -webkit-transform: translateX(-150%);
-  transform: translateX(-150%); }
-
-/* line 294, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.close-right .side-right {
-  z-index: 200; }
-
-/* line 298, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-right .side-right .intro-content {
-  -webkit-transform: translateY(-50%) translateX(0%) scale(0.6);
-  transform: translateY(-50%) translateX(0%) scale(0.6); }
-
-/* line 303, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-right .page-right {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%); }
-
-/* Left side open */
-/* line 309, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-left .side-right {
-  -webkit-transform: translateX(60%);
-  transform: translateX(60%); }
-
-/* line 314, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-left .side-left {
-  z-index: 200;
-  -webkit-transform: translateX(150%);
-  transform: translateX(150%); }
-
-/* line 320, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.close-left .side-left {
-  z-index: 200; }
-
-/* line 324, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-left .side-left .intro-content {
-  -webkit-transform: translateY(-50%) translateX(-100%) scale(0.6);
-  transform: translateY(-50%) translateX(-100%) scale(0.6); }
-
-/* line 329, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-left .codropsheader {
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: opacity 0.3s, visibility 0.1s 0.3s;
-  transition: opacity 0.3s, visibility 0.1s 0.3s; }
-
-/* line 336, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-.open-left .page-left {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%); }
-
-/* Media Queries */
-@media screen and (max-width: 83em) {
-  /* line 343, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .intro-content {
-    font-size: 60%; } }
-@media screen and (max-width: 58em) {
-  /* line 347, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  body {
-    font-size: 90%; } }
-@media screen and (max-width: 49.4375em) {
-  /* line 351, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-right .side-right {
-    -webkit-transform: translateX(-175%);
-    transform: translateX(-175%); }
-
-  /* line 356, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-right .side-left {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%); }
-
-  /* line 361, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-left .side-right {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%); }
-
-  /* line 366, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-left .side-left {
-    -webkit-transform: translateX(175%);
-    transform: translateX(175%); }
-
-  /* line 371, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .page {
-    width: 100%; }
-
-  /* line 375, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .page-right {
-    left: 0;
-    padding-left: 15%; }
-
-  /* line 380, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .page-left {
-    padding-right: 15%; }
-
-  /* line 384, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .intro-content {
-    width: 100%; }
-
-  /* line 388, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-right .side-right .intro-content {
-    top: 100%;
-    -webkit-transform: translateY(-150px) translateX(-12.5%) scale(0.5);
-    transform: translateY(-150px) translateX(-12.5%) scale(0.5); }
-
-  /* line 394, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-left .side-left .intro-content {
-    top: 100%;
-    -webkit-transform: translateY(-150px) translateX(-87.5%) scale(0.5);
-    transform: translateY(-150px) translateX(-87.5%) scale(0.5); }
-
-  /* line 400, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .open-right .intro-content h1,
-  .open-left .intro-content h1 {
-    opacity: 0; }
-
-  /* line 405, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .back-left {
-    left: 6.25%; }
-
-  /* line 409, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .back-right {
-    right: 6.25%; } }
-@media screen and (max-width: 42.5em) {
-  /* line 415, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  body {
-    font-size: 80%; }
-
-  /* line 416, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .intro-content {
-    font-size: 50%; } }
-@media screen and (max-height: 41.125em) {
-  /* line 420, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .intro-content {
-    -webkit-transform: translateY(-25%) translateX(-50%);
-    transform: translateY(-25%) translateX(-50%); } }
-@media screen and (max-width: 39.375em) {
-  /* line 427, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  .intro-content .profile {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5); } }
-@media screen and (max-width: 320px) {
-  /* line 431, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/component.css */
-  body {
-    font-size: 70%; } }
-/* General Blueprint Style */
-@font-face {
-  font-family: 'bpicons';
-  src: url("../fonts/bpicons/bpicons.eot");
-  src: url("../fonts/bpicons/bpicons.eot?#iefix") format("embedded-opentype"), url("../fonts/bpicons/bpicons.woff") format("woff"), url("../fonts/bpicons/bpicons.ttf") format("truetype"), url("../fonts/bpicons/bpicons.svg#bpicons") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* Made with http://icomoon.io/ */
-/* line 15, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 16, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-body, html {
-  font-size: 100%;
-  padding: 0;
-  margin: 0; }
-
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-/* line 19, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-
-/* line 20, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.clearfix:after {
-  clear: both; }
-
-/* line 22, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-body {
-  font-family: 'Lato', Calibri, Arial, sans-serif;
-  color: #fff;
-  background: #333; }
-
-/* line 28, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-a {
-  color: #ccc;
-  text-decoration: none; }
-
-/* line 33, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-a:hover {
-  color: #000; }
-
-/* line 37, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader {
-  width: 100%;
-  margin: 0 auto;
-  text-align: left;
-  padding: 1.4em;
-  opacity: 0.7;
-  visibility: visible;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s; }
-
-/* line 48, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader h1 {
-  font-size: 2.125em;
-  line-height: 1.3;
-  margin: 0 0 0.6em 0;
-  float: left;
-  font-weight: 400; }
-
-/* line 56, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader > span {
-  display: block;
-  position: relative;
-  z-index: 9999;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  padding: 0 0 0.6em 0.1em; }
-
-/* line 66, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader > span span:after {
-  width: 30px;
-  height: 30px;
-  left: -12px;
-  font-size: 50%;
-  top: -8px;
-  font-size: 75%;
-  position: relative; }
-
-/* line 76, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader > span span:hover:before {
-  content: attr(data-content);
-  text-transform: none;
-  text-indent: 0;
-  letter-spacing: 0;
-  font-weight: 300;
-  font-size: 110%;
-  padding: 0.8em 1em;
-  line-height: 1.2;
-  text-align: left;
-  left: auto;
-  margin-left: 4px;
-  position: absolute;
-  color: #47a3da;
-  background: #fff; }
-
-/* line 93, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav {
-  float: left;
-  text-align: center;
-  margin-left: 1.5em;
-  display: block; }
-
-/* line 100, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav a {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-  width: 2.5em;
-  height: 2.5em;
-  background: #47a3da;
-  border-radius: 50%;
-  margin: 0 0.1em;
-  border: 3px solid #fff; }
-
-/* line 112, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav a > span {
-  display: none; }
-
-/* line 116, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav a:hover:before {
-  content: attr(data-info);
-  color: #fff;
-  position: absolute;
-  width: 600%;
-  top: 120%;
-  text-align: right;
-  right: 0;
-  pointer-events: none; }
-
-/* line 127, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav a:hover {
-  background: #fff; }
-
-/* line 131, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.bp-icon:after {
-  font-family: 'bpicons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  text-align: center;
-  color: #fff;
-  -webkit-font-smoothing: antialiased; }
-
-/* line 143, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav .bp-icon:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  line-height: 2;
-  text-indent: 0; }
-
-/* line 153, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.codropsheader nav a:hover:after {
-  color: #47a3da; }
-
-/* line 157, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.bp-icon-next:after {
-  content: "\e000"; }
-
-/* line 160, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.bp-icon-drop:after {
-  content: "\e001"; }
-
-/* line 163, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.bp-icon-archive:after {
-  content: "\e002"; }
-
-/* line 166, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.bp-icon-about:after {
-  content: "\e003"; }
-
-/* line 169, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.bp-icon-prev:after {
-  content: "\e004"; }
-
-/* line 173, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.demos {
-  display: inline-block;
-  line-height: 2.4em;
-  margin-left: 1em;
-  float: right; }
-
-/* line 180, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.demos a {
-  display: inline-block;
-  color: #fff;
-  margin: 0 0.5em; }
-
-/* line 186, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-.demos a:hover,
-.demos a:focus,
-.demos a.current {
-  color: rgba(0, 0, 0, 0.4); }
-
-@media screen and (max-width: 73.375em) {
-  /* line 193, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-  .codropsheader {
-    text-align: center; }
-
-  /* line 196, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-  .codropsheader h1,
-  .codropsheader nav,
-  .demos {
-    float: none;
-    margin: 0 auto;
-    padding: 0.15em 0; }
-
-  /* line 203, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-  .codropsheader > span {
-    padding: 0; }
-
-  /* line 206, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-  .codropsheader > span span:after {
-    display: none; } }
-@media screen and (max-height: 30.25em) {
-  /* line 212, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/vendor/demo.css */
-  .codropsheader nav {
-    display: none; } }
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,700,700italic,900,900italic|Lusitana:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
 /* line 1, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/base/_buttons.scss */
 input[type="button"], input[type="reset"], input[type="submit"],
 button {
@@ -1293,42 +230,145 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
-/* line 1, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/_global.css.scss */
+/* line 1, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
 body {
-  background-color: #ddd;
-  color: #999; }
+  text-align: left; }
+  /* line 13, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body h1, body h2, body h3, body p {
+    margin: 0; }
+  /* line 17, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body hr {
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 1.5em 0; }
+  /* line 25, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.5; }
+  /* line 31, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body a {
+    color: #477DCA;
+    text-decoration: none; }
+  /* line 9, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/.bundle/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 44, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body .type {
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 0.7em;
+    font-weight: 700;
+    margin-bottom: 2em;
+    padding: 0.3em 0;
+    text-align: left;
+    text-transform: uppercase; }
+  /* line 56, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body h1 {
+    font-family: "Lusitana", serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em; }
+    @media screen and (min-width: 40em) {
+      /* line 56, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+      body h1 {
+        font-size: 2.6em; } }
+  /* line 67, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body h2 {
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: 0.9em; }
+    @media screen and (min-width: 40em) {
+      /* line 67, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+      body h2 {
+        font-size: 1.2em; } }
+  /* line 80, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body code {
+    background: #F7F7F7;
+    border-radius: 4.5px;
+    border: 1px solid #E0E0E0;
+    font-family: monaco;
+    font-size: 0.75em;
+    font-style: normal;
+    padding: 0.1em 0.4em;
+    white-space: nowrap; }
+  /* line 91, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body h3 {
+    font-family: "Lusitana", serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: .4em; }
+  /* line 99, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body p.date {
+    color: rgba(51, 51, 51, 0.4);
+    font-family: "Merriweather", serif;
+    font-size: 0.9em;
+    font-style: italic;
+    margin-bottom: 0.3em; }
+  /* line 107, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body p {
+    font-family: "Merriweather", serif;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin-bottom: 1.5em; }
+    /* line 113, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+    body p span {
+      font-family: "Merriweather Sans", sans-serif;
+      font-weight: 700; }
+  /* line 119, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body a.read-more {
+    display: inline-block;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-left: 0.2em;
+    position: relative;
+    text-transform: uppercase; }
+    /* line 128, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+    body a.read-more span {
+      font-family: "Lusitana", serif;
+      font-size: 1.5em;
+      font-style: normal;
+      position: absolute;
+      right: -12px;
+      top: -1px; }
+  /* line 138, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body hr {
+    width: 3em; }
+  /* line 142, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/modules/_serif_type.scss */
+  body p.author {
+    font-family: "Merriweather", serif;
+    font-style: italic; }
 
-/* line 6, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/_global.css.scss */
-.delete-me {
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  box-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  -ms-flex-align: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  height: 100vh; }
-  /* line 12, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/_global.css.scss */
-  .delete-me .container {
-    text-align: center; }
-    /* line 15, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/_global.css.scss */
-    .delete-me .container h1 {
-      font-weight: 200; }
+/* line 1, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/layout/_container.scss */
+.l-container, .l-hero {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em; }
+  /* line 9, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/.bundle/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+  .l-container::after, .l-hero::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 6, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/layout/_container.scss */
+.l-hero {
+  text-align: center; }
+
+/* line 10, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/layout/_container.scss */
+.l-toc {
+  margin-left: 25.58941%; }
+
+/* line 1, /Users/davidwoodall/Dropbox/300_code/projects/pyramid-cross/source/assets/stylesheets/_global.css.scss */
+.toc {
+  text-align: left; }
